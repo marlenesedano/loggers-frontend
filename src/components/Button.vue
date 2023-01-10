@@ -23,4 +23,9 @@ const cor = {
 .read-the-docs {
   color: #888;
 }
+
+button {
+  cursor: pointer;
+  user-select: none;
+}
 </style>

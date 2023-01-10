@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ButtonLogger from '../components/ButtonLogger.vue';
+import Button from '../components/Button.vue';
 
 </script>
 
@@ -9,17 +9,17 @@ import ButtonLogger from '../components/ButtonLogger.vue';
         <div class="body">
             <div class="filter">
                 <input type="text" class="filterInput"/>
-                <ButtonLogger description="Filtro/Total" class="buttonFilter"/>
+                <Button description="Filtro/Total" class="buttonFilter"/>
             </div>
             <div class="tableData">
                 <div>Root</div>
                 <div>
-                    <ButtonLogger description="OFF"/>
-                    <ButtonLogger description="ERROR"/>
-                    <ButtonLogger description="WARN"/>
-                    <ButtonLogger description="INFO"/>
-                    <ButtonLogger description="DEBUG"/>
-                    <ButtonLogger description="TRACE"/>
+                    <Button description="OFF"/>
+                    <Button description="ERROR"/>
+                    <Button description="WARN"/>
+                    <Button description="INFO"/>
+                    <Button description="DEBUG"/>
+                    <Button description="TRACE"/>
                 </div>
             </div>
         </div>
